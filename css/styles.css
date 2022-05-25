@@ -1,0 +1,56 @@
+body {
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.text:hover,
+.text:focus{
+    color: #2196f3;
+}
+
+/* -----------------------HEADER-------------------- */
+
+.title-web {
+width: 145px;
+height: 31px;
+color: #2196F3;
+font-style: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+text-decoration: none;
+margin-left: 215px;
+margin-top: 25px;
+}
+
+.title-studio {
+    width: 145px;
+    height: 31px;
+    color: #000000;
+    font-style: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    text-decoration: none;
+}
+
+.studio,
+.portfolio,
+.contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #212121;    
+    text-decoration: none;
+}
+
+
+.studio{
+    margin-left: 453px;
+    
+}
+
+
