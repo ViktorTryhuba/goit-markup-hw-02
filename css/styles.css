@@ -3,8 +3,8 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
 
-.text:hover,
-.text:focus{
+.link:hover,
+.link:focus{
     color: #2196f3;
 }
 
