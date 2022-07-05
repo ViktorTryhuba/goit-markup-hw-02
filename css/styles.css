@@ -1,6 +1,7 @@
 body {
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'oleo Script', cursive;
+    font-family: 'raleway', sans-serif;
+    font-family: 'roboto',sans-serif;
 }
 
 .link:hover,
@@ -9,11 +10,23 @@ font-family: 'Roboto', sans-serif;
 }
 /* -----------------------HEADER-------------------- */
 
+header {
+margin: 0px;
+padding: 4px;
+}
+
+header ul {
+display: inline;
+margin-right: 50px;
+padding: 3px;
+}
+
 .title-web {
 width: 145px;
 height: 31px;
 color: #2196F3;
-font-style: 'Raleway';
+font-family: 'Raleway';
+font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: calc(31 / 26);
@@ -26,11 +39,16 @@ margin-top: 25px;
     width: 145px;
     height: 31px;
     color: #000000;
-    font-style: 'Raleway';
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
     text-decoration: none;
+}
+
+.studio {
+    margin-left: 93px;
 }
 
 .studio,
@@ -46,10 +64,28 @@ margin-top: 25px;
     text-decoration: none;
 }
 
+.spc {
+    margin: 0px;
+    padding: 4px;
+}
 
-.studio{
-    margin-left: 453px;
-    
+.spc li{
+
+    margin-top: 25px;
+    display: inline;
+    margin-right: 50px;
+    padding: 3px;
+}
+
+.mailtel {
+    margin: 0px;
+    padding: 4px;
+}
+
+.mailtel li {
+    display: inline;
+    margin-right: 50px;
+    padding: 3px;
 }
 
 
