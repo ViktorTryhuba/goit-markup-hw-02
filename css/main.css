@@ -1,88 +1,96 @@
+/* =================MAIN=================== */
+
 :root {
-    --first-color: #757575;
-    --second-color: #2196F3;
-    --third-color: #FFFFFF;
+    --primary-color: #757575;
+    --secondary-color: #FFF;
+    --hover-color: #2196F3;
 }
 
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
 }
 
-li { list-style: none; }
-
-
-.link:hover,
-.link:focus{
-    color: var(--second-color);
-}
+.list { list-style: none; }
 
 .link { text-decoration: none; }
 
-
-/* -----------------------HEADER-------------------- */
-
+/* =================MAIN=================== */
+/* =================HEADER=================== */
 
 .logo-web {
-    width: 145px;
-    height: 31px;
-    color: var(--second-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
 
 .logo-studio {
-    width: 145px;
-    height: 31px;
-    color: #000000;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    text-decoration: none;
+    letter-spacing: 0.03em;
+    color: #000;
 }
 
-.navigate {
-    color: #212121;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    letter-spacing: 0.02em; 
-}
-
-.communicate .communicate-t, .communicate .communicate-m { 
-    color: var(--first-color); 
+.menu-link {
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+    color: inherit;
 }
 
-/* -----------------------FOOTER-------------------- */
-
-footer { background: #2F303A; }
-
-footer .logo-studio {
-    color: #FFFFFF;
+.header-contact-email,
+.header-contact-phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
 }
 
-.address {
-    font-weight: 400;
+.menu-link:hover,
+.menu-link:focus,
+.header-contact-item a:hover,
+.header-contact-item a:focus {
+    color: var(--hover-color);
+}
+
+/* =================HEADER=================== */
+/* =================FOOTER=================== */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-nav .logo-studio {
+    color: var(--secondary-color);
+}
+
+.footer-contact-address {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
-    color: var(--third-color);
+    color: var(--secondary-color);
 }
 
-.communicate-addr .communicate-t, .communicate-addr .communicate-m {
-    font-weight: 400;
+.footer-conact-email,
+.footer-contact-phone-number {
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-contact-item a:hover,
+.footer-contact-item a:focus {
+    color: var(--hover-color);
+}
+
+/* =================FOOTER=================== */
