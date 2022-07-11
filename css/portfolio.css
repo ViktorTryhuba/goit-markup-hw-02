@@ -1,3 +1,8 @@
+/* =================PORTFOLIO-HEADER================= */
+
+
+
+/* =================PORTFOLIO-HEADER================= */
 /* =================BUTTONS================= */
 
 .btn {
@@ -10,6 +15,7 @@
     height: 38px;
     background: #F5F4FA;
     border-radius: 4px;
+    border: none;
 }
 
 /* =================BUTTONS================= */
